@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/python-web-browser.git
+   git clone https://github.com/kiruthikpurpose/PyBrowser.git
    cd python-web-browser
    ```
 
@@ -46,16 +46,6 @@ pip install -r requirements.txt
 - **Home Button:** Takes you to the homepage (default is Google).
 - **Address Bar:** Enter a URL and press Enter to navigate.
 - **New Tab Button:** Opens a new tab with Google loaded by default.
-
-## File Structure
-
-```
-.
-├── main.py             # Main Python file that launches the browser
-├── util.py             # Utility functions
-├── requirements.txt    # Dependencies for the project
-└── README.md           # Project documentation
-```
 
 ## Contributing
 
