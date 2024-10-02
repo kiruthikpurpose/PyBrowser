@@ -28,7 +28,7 @@ We welcome pull requests! Here's how you can contribute code:
 1. Fork the repository to your own GitHub account.
 2. Clone the forked repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/python-web-browser.git
+   git clone https://github.com/kiruthikpurpose/PyBrowser.git
    cd python-web-browser
    ```
 3. Create a new branch for your feature or bugfix:
