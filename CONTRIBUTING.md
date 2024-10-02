@@ -7,7 +7,7 @@ Thank you for considering contributing to this project! Contributions are what m
 
 ### Reporting Bugs
 
-If you find a bug, please open an issue [here](https://github.com/your-username/python-web-browser/issues) with the following information:
+If you find a bug, please open an issue [here](https://github.com/kiruthikpurpose/PyBrowser/issues) with the following information:
 - A clear title for the issue.
 - Steps to reproduce the bug.
 - The expected behavior.
@@ -16,7 +16,7 @@ If you find a bug, please open an issue [here](https://github.com/your-username/
 
 ### Feature Requests
 
-If you have an idea for a new feature, feel free to suggest it by opening an issue [here](https://github.com/your-username/python-web-browser/issues). Please provide:
+If you have an idea for a new feature, feel free to suggest it by opening an issue [here](https://github.com/kiruthikpurpose/PyBrowser/issues). Please provide:
 - A clear and concise description of the feature.
 - Why you think it would be useful.
 - Any potential implementation ideas.
