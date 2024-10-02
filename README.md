@@ -25,7 +25,7 @@ pip install -r requirements.txt
 1. Clone this repository:
    ```bash
    git clone https://github.com/kiruthikpurpose/PyBrowser.git
-   cd python-web-browser
+   cd PyBrowser
    ```
 
 2. Install the required dependencies:
