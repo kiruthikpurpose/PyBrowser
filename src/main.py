@@ -1,4 +1,5 @@
 import sys
+import os
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit, QPushButton, QVBoxLayout, QWidget, QTextEdit, QToolBar, QTabWidget, QHBoxLayout
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtCore import QUrl, Qt
@@ -7,6 +8,7 @@ from util import fetch_url
 from PyQt5.QtWidgets import QTabBar
 from PyQt5.QtGui import QFont
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 class Browser(QMainWindow):
@@ -45,11 +47,11 @@ class Browser(QMainWindow):
 
 
 
-        back_button = self.create_button(QIcon('back_icon.png'))
-        forward_button = self.create_button(QIcon('forward_icon.png'))
-        refresh_button = self.create_button(QIcon('refresh_icon.png'))
-        home_button = self.create_button(QIcon('home_icon.png'))
-        new_tab_button = self.create_button(QIcon('new_tab_icon.png'))
+        back_button = self.create_button(QIcon(os.path.join(BASE_DIR, 'back_icon.png')))
+        forward_button = self.create_button(QIcon(os.path.join(BASE_DIR, 'forward_icon.png')))
+        refresh_button = self.create_button(QIcon(os.path.join(BASE_DIR, 'refresh_icon.png')))
+        home_button = self.create_button(QIcon(os.path.join(BASE_DIR, 'home_icon.png')))
+        new_tab_button = self.create_button(QIcon(os.path.join(BASE_DIR, 'new_tab_icon.png')))
 
 
 
