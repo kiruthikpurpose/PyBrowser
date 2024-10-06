@@ -8,6 +8,13 @@ This is a simple Python web browser built using PyQt5 and PyQtWebEngine. It allo
 - Address bar for direct URL input
 - New tab functionality with the default page set to Google
 
+## Changes Made
+
+- Added icons for the **Buttons** listed.
+- Enhanced the **Browser Tab** with **Exiting UI**.
+- Updated **Address bar** for better **User Interface**.
+
+
 ## Requirements
 
 This project requires the following Python packages:
@@ -47,9 +54,7 @@ pip install -r requirements.txt
 - **Address Bar:** Enter a URL and press Enter to navigate.
 - **New Tab Button:** Opens a new tab with Google loaded by default.
 
-## Contributing
 
-We welcome contributions! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
 
 ## License
 
