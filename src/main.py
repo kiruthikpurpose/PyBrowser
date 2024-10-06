@@ -90,7 +90,7 @@ class Browser(QMainWindow):
             QPushButton:pressed {
                 background-color: darkgray; 
             }
-        """)
+        """) 
         
         button.setCursor(QCursor(Qt.PointingHandCursor)) 
         return button
